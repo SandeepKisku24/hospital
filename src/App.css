@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+}
+
+.logoAndName{
+  display: flex;
+  flex-direction:  row;
+  width: 30%;
+  margin: auto;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+  /* margin: auto; */
+}
+.logo img{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+.instName{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  font-family: "Spectral SC", serif;
+  /* color: #34A853; */
+  color: #4285F4;
+}
+.hname{
+  /* text-decoration: bold; */
+  font-weight: bold;
+  font-size: 23px;
+}
+.hplace{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* menubar */
+.menuBar{
+  width: 60%;
+}
+.menuList{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+.menuList li a{
+  text-decoration: none;
+  width: 100%;
+  /* color: #91a8ae ; */
+  color: #4285F4;
+  padding: 20px 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  /* color: #91a8ae; */
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  transition: all ease-in 0.3s;
+  position: relative;
+
+ 
+}
+.dropDownList {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  z-index: 1;
+  text-align: left;
+  border-radius: 5px;
+}
+.dropDownList a{
+  font-size: 13px !important;
+  padding: 10px 5px !important;
+  
+}
+
+iframe{
+  position:absolute;
+  right: 5%;
+}
+
+/* slides  */
+.slide{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+}
+.slide img{
+  /* position: absolute; */
+  /* left: 0px; */
+  width: 100%;
+  height: 100%;
+}
+
+/* topservices */
+
+.topService{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -60px;
+}
+.one{
+  width: 15%;
+  background-color: #4285F4;
+  padding: 1% 2% 1% 2%;
+  color: #fff;
+  height: 35vh;
+  
+}
+.two{
+  width: 15%;
+  color : #4285F4;
+  padding: 1% 2% 1% 2%;
+  background-color: #fff;
+  height: 35vh;
+}
+
+.titleOfservice{
+  
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  
+  font-size: 50px;
+}
+.contentOfService{
+  text-align: justify !important;
+ 
+}
